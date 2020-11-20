@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/energia/static/css/main.5235c7c4.chunk.css",
+    "main.js": "/energia/static/js/main.d92fd47c.chunk.js",
+    "main.js.map": "/energia/static/js/main.d92fd47c.chunk.js.map",
+    "runtime-main.js": "/energia/static/js/runtime-main.a4d82cac.js",
+    "runtime-main.js.map": "/energia/static/js/runtime-main.a4d82cac.js.map",
+    "static/css/2.9efb3193.chunk.css": "/energia/static/css/2.9efb3193.chunk.css",
+    "static/js/2.84f10d30.chunk.js": "/energia/static/js/2.84f10d30.chunk.js",
+    "static/js/2.84f10d30.chunk.js.map": "/energia/static/js/2.84f10d30.chunk.js.map",
+    "index.html": "/energia/index.html",
+    "static/css/2.9efb3193.chunk.css.map": "/energia/static/css/2.9efb3193.chunk.css.map",
+    "static/css/main.5235c7c4.chunk.css.map": "/energia/static/css/main.5235c7c4.chunk.css.map",
+    "static/js/2.84f10d30.chunk.js.LICENSE.txt": "/energia/static/js/2.84f10d30.chunk.js.LICENSE.txt",
+    "static/media/banner-3.212c70b5.jpg": "/energia/static/media/banner-3.212c70b5.jpg",
+    "static/media/banner-4.b99c52c2.jpg": "/energia/static/media/banner-4.b99c52c2.jpg",
+    "static/media/banner.6915f0ec.jpg": "/energia/static/media/banner.6915f0ec.jpg",
+    "static/media/banner2.97fdd15e.jpg": "/energia/static/media/banner2.97fdd15e.jpg",
+    "static/media/banner5.86c8ac00.jpg": "/energia/static/media/banner5.86c8ac00.jpg",
+    "static/media/banner6.a4de974c.jpg": "/energia/static/media/banner6.a4de974c.jpg",
+    "static/media/logo.2017f020.png": "/energia/static/media/logo.2017f020.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a4d82cac.js",
+    "static/css/2.9efb3193.chunk.css",
+    "static/js/2.84f10d30.chunk.js",
+    "static/css/main.5235c7c4.chunk.css",
+    "static/js/main.d92fd47c.chunk.js"
+  ]
+}
