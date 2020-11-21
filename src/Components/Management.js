@@ -5,13 +5,11 @@ import {motion} from "framer-motion"
 
 const pageload={
     initial:{
-        x:"100vw"
-        
+        x:"100vw" 
     },
     animate:{
         x:0,
         transition:{
-            
             type:"spring",
             mass:0.4,
             dumping:8,
@@ -20,7 +18,6 @@ const pageload={
         }
         
     },
-    
       exit:{
           x:"-100vw",
           transition:{ease:"easeInOut"}
