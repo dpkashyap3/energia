@@ -1,11 +1,38 @@
 import React from 'react'
-import {Col,Image} from "react-bootstrap"
+import {Col,Image,Row} from "react-bootstrap"
 import bg from "../images/banner2.jpg"
+import {motion} from "framer-motion"
 
+
+const onload={
+    initial:{
+        x:"100vw"
+    }
+    ,
+    animate:{
+        x:0,
+        transition:{
+            
+            type:"spring",
+            mass:0.4,
+            dumping:8,
+            when:"beforeChildren",
+            staggerChild:2
+        }
+        
+    }
+    ,
+  exit:{
+      x:"-100vw",
+      transition:{ease:"easeInOut"}
+
+  }
+}
 
 const Services = () => {
     return (
-        <>
+        <motion.div variants={onload} exit="exit" initial="initial" animate="animate">
+        <Row>
         <Col lg={6} md={6} sm={12}>
             <Image className="banner" src={bg}/>        
         </Col>
@@ -19,7 +46,8 @@ const Services = () => {
                 <li>Contract manufacture of Bulk capsules, Tablets, Syrups, Granules and pastes.</li>
             </ul>
         </Col>
-        </>
+        </Row>
+        </motion.div>
     )
 }
 

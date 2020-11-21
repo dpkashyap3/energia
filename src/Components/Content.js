@@ -8,12 +8,13 @@ import Products from "./Products"
 import Facility from "./Facility"
 import Management from './Management'
 import Contactus from './Contactus'
-
+import {AnimatePresence} from "framer-motion"
 
 const Content = () => {
     return (
         <Container fluid>
             <Row>
+            <AnimatePresence>
                 <Switch>
                     <Route exact path="/" component={Home}/>
                     <Route path="/services" component={Services}/>
@@ -22,6 +23,7 @@ const Content = () => {
                     <Route path="/management" component={Management}/>
                     <Route path="/contactus" component={Contactus}/>
                 </Switch>
+                </AnimatePresence>
             </Row>
         </Container>        
     )
